@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "description": "Phase 4 benchmark regression gate. Local benchmark decisions are regression diagnostics, not Kaggle leaderboard predictions.",
+  "minimum_total_games": 100,
+  "minimum_games_per_required_matchup": 20,
+  "maximum_invalid_action_rate": 0.0,
+  "maximum_timeout_rate": 0.0,
+  "maximum_crash_rate": 0.0,
+  "minimum_aggregate_win_rate_delta_vs_baseline": 0.02,
+  "minimum_candidate_lower_ci": 0.5,
+  "required_hard_gate_opponents": [
+    "lucario_web_teacher_champion",
+    "hop_trevenant_best_spread_restraint",
+    "dragapult_lucario_first_web_heuristic",
+    "starmie_baseline"
+  ],
+  "allowed_unavailable_optional_opponents": [
+    "previous_submission_champion"
+  ],
+  "maximum_required_matchup_regression": -0.05,
+  "random_opponent_names": [
+    "random_legal_baseline",
+    "random"
+  ]
+}

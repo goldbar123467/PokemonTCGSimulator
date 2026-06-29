@@ -1,0 +1,89 @@
+{
+  "archives": [
+    {
+      "archive_path": "artifacts/submission_lucario_web_teacher_cleaned_pathfix.tar.gz",
+      "archive_sha256": "FAAEE1C05617F21B703E339BF8BC717DFAA3CA9FB2653903C393D017A2108CAF",
+      "eligible_for_calibration": true,
+      "known_local_score": null,
+      "known_private_score": null,
+      "known_public_score": 976.7,
+      "known_submission_id": "54079056",
+      "name": "lucario_web_teacher_champion",
+      "notes": "Protected current champion/floor. Local benchmark scores are not leaderboard scores.",
+      "role": "champion"
+    },
+    {
+      "archive_path": "artifacts/submission_lucario_less_preserving_track_a_v2.tar.gz",
+      "archive_sha256": "98DD07DD441AEA23EB2FAB6923A98059D802A64B25240E9667C93F39A227847D",
+      "eligible_for_calibration": true,
+      "known_local_score": null,
+      "known_private_score": null,
+      "known_public_score": 740.3,
+      "known_submission_id": null,
+      "name": "lucario_less_preserving_track_a_v2",
+      "notes": "Sharper Lucario Track A v2 profile with known lower broad public evidence than the web-teacher champion.",
+      "role": "historical"
+    },
+    {
+      "archive_path": "artifacts/submission_hop_trevenant_v2_loop5_best_spread_restraint.tar.gz",
+      "archive_sha256": "00FA5663722BBC1F72EDA09BB5442DF96DF6341C6A4F90A785C40AFA63BA62FE",
+      "eligible_for_calibration": true,
+      "known_local_score": null,
+      "known_private_score": null,
+      "known_public_score": null,
+      "known_submission_id": null,
+      "name": "hop_trevenant_best_spread_restraint",
+      "notes": "Strong local hard-gate archive; known public score is intentionally null here because this exact archive/public mapping is not locked in this registry.",
+      "role": "hard_gate"
+    },
+    {
+      "archive_path": "artifacts/submission_starmie_baseline_2026_06_27.tar.gz",
+      "archive_sha256": "6E375C0EE678CDCBD2B37D515DF13255677116F7F18F32011CADE6CFE3FA8612",
+      "eligible_for_calibration": true,
+      "known_local_score": null,
+      "known_private_score": null,
+      "known_public_score": null,
+      "known_submission_id": null,
+      "name": "starmie_baseline",
+      "notes": "Baseline hard-gate archive. Use as calibration context only until a comparable known score is locked.",
+      "role": "baseline"
+    },
+    {
+      "archive_path": "artifacts/submission_dragapult_lucario_first_web_heuristic.tar.gz",
+      "archive_sha256": "B329D119C2509CE926369D913F20138B53A03316CCC6084079957C6A681979FE",
+      "eligible_for_calibration": true,
+      "known_local_score": null,
+      "known_private_score": null,
+      "known_public_score": null,
+      "known_submission_id": null,
+      "name": "dragapult_lucario_first_web_heuristic",
+      "notes": "Dragapult/spread hard-gate archive. No comparable score locked in this registry.",
+      "role": "hard_gate"
+    },
+    {
+      "archive_path": "artifacts/submission_starmie_online_simple_v3.tar.gz",
+      "archive_sha256": "447CA71C507E427CB55D8415BAA696A5860C241C41042481A44A9E8D7155CD30",
+      "eligible_for_calibration": true,
+      "known_local_score": 0.10625,
+      "known_private_score": null,
+      "known_public_score": null,
+      "known_submission_id": null,
+      "name": "starmie_online_simple_v3_bad_variant",
+      "notes": "Known bad local retry family artifact: prior local manifest evidence was 17/160 overall. This is not a Kaggle score.",
+      "role": "bad_variant"
+    },
+    {
+      "archive_path": "artifacts/submission_champion.tar.gz",
+      "archive_sha256": "EDA4B05047B350155E5FA35FFA2CE8AD8E51D3FDA8DE0E0CE01ADAF4CFA41432",
+      "eligible_for_calibration": false,
+      "known_local_score": null,
+      "known_private_score": null,
+      "known_public_score": null,
+      "known_submission_id": null,
+      "name": "previous_submission_champion",
+      "notes": "Older champion artifact retained for context; disabled for calibration until exact comparable evidence is locked.",
+      "role": "historical"
+    }
+  ],
+  "version": 1
+}

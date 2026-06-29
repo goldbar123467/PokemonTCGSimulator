@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "description": "Phase 3 no-submit benchmark league. Opponents are fixed local archives or explicit built-ins; broad archive/replay globs are intentionally forbidden.",
+  "games_per_matchup": 2,
+  "base_seed": 20260628,
+  "seed_list": [
+    0,
+    1
+  ],
+  "sdk_path": "data/official",
+  "max_steps": 1000,
+  "opponents": [
+    {
+      "name": "random_legal_baseline",
+      "kind": "random",
+      "description": "Legal random option chooser using the candidate deck."
+    },
+    {
+      "name": "previous_submission_champion",
+      "kind": "archive",
+      "archive": "artifacts/submission_champion.tar.gz"
+    },
+    {
+      "name": "lucario_web_teacher_champion",
+      "kind": "archive",
+      "archive": "artifacts/submission_lucario_web_teacher_cleaned_pathfix.tar.gz"
+    },
+    {
+      "name": "hop_trevenant_best_spread_restraint",
+      "kind": "archive",
+      "archive": "artifacts/submission_hop_trevenant_v2_loop5_best_spread_restraint.tar.gz"
+    },
+    {
+      "name": "dragapult_lucario_first_web_heuristic",
+      "kind": "archive",
+      "archive": "artifacts/submission_dragapult_lucario_first_web_heuristic.tar.gz"
+    },
+    {
+      "name": "starmie_baseline",
+      "kind": "archive",
+      "archive": "artifacts/submission_starmie_baseline_2026_06_27.tar.gz"
+    }
+  ]
+}

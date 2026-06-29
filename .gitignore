@@ -1,0 +1,15 @@
+.kaggle/
+.venv-cuda/
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+data/Pokemon-Replays-Public/
+data/kaggle_public_leaderboard/
+logs/archived/
+logs/quarantine/
+artifacts/
+*.pth
+*.tar.gz

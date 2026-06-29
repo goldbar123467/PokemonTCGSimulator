@@ -1,0 +1,16 @@
+{
+  "workflow": "no_rl_kaggle_readiness",
+  "log_gate_enforced_by": "train.py",
+  "random_seed": 0,
+  "gameplay_schema_version": "kaggle_episode_steps_v1",
+  "current_gameplay_min_date": "2026-06-27",
+  "data_root": "data/kaggle_public_leaderboard",
+  "gameplay_manifest": "data_manifest/gameplay_logs.json",
+  "current_gameplay_allowlist": "data_manifest/current_gameplay_logs.txt",
+  "artifact_root": "artifacts",
+  "readiness_output_root": "artifacts/kaggle_readiness",
+  "kaggle_input_root": "/kaggle/input",
+  "kaggle_working_root": "/kaggle/working",
+  "kaggle_submission_path": "/kaggle/working/submission.csv",
+  "submission_allowed_without_user_approval": false
+}

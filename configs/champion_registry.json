@@ -1,0 +1,16 @@
+{
+  "archive_path": "artifacts/submission_lucario_web_teacher_cleaned_pathfix.tar.gz",
+  "archive_sha256": "FAAEE1C05617F21B703E339BF8BC717DFAA3CA9FB2653903C393D017A2108CAF",
+  "benchmark_config_hash": "94AA77F7CB08D71BAB13AC315F093E3D89CD35D6328563F0A671204BA497CB3A",
+  "champion_name": "lucario_web_teacher_champion",
+  "deck_archetype_label": "Lucario web-teacher broad champion",
+  "known_public_score": 976.7,
+  "known_submission_id": "54079056",
+  "notes": "Current protected baseline from project notes. The benchmark config hash records the current local gate identity; it does not mean the Kaggle score was produced by the local benchmark. Do not mutate this registry automatically.",
+  "package_validation": {
+    "status": "strict_startup_validated_in_prior_phase",
+    "strict_raw_exec_without_file_or_syspath": true
+  },
+  "registered_at": "2026-06-29T00:00:00Z",
+  "version": 1
+}
