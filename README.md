@@ -10,6 +10,9 @@ work, read:
 
 - `AGENTS.md`
 - `docs/groupknowledge.md`
+- `docs/ptcg-project-brief.md`
+- `docs/ptcg-evaluation-playbook.md`
+- `docs/ptcg-storage-retention.md`
 
 Current hard rule: do not run PPO, RL, behavior-cloning-as-improvement,
 random self-play counters, or neural imitation loops unless the user explicitly
